@@ -4,11 +4,8 @@
 
 
 void main(void) {
-    
-    /* CONFIGURACIÓN --> PIN RF3 -> Salida Digital 
+   
     TRISFbits.TRISF3 = 0; 
-    
-    /* INGRESAR AL BUCLE INFINITO */
     while (1){
         /* Prender LED (RF03)*/
         LATFbits.LATF3=0;
