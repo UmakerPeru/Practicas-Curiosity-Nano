@@ -14,6 +14,7 @@ void main(void)
         LATFbits.LATF3=1;
         __delay_ms(2000);
         LATFbits.LATF3=0;
+        __delay_ms(2000);
     }
     return;
 }
