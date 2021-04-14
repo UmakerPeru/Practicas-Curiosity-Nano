@@ -3,7 +3,7 @@
 
 void main(void) 
 {
-    //ANSELFbits.ANSELF3=0;
+   
     TRISFbits.TRISF3=0;
     LATFbits.LATF3=0;
     while (1)
