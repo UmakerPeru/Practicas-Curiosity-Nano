@@ -3,7 +3,7 @@
 #include "RELOJ.h"
 
 void main(void) {
-    while{1}{
+    while(1){
         TRISCbits.TRISC1=0;
     
         LATFCits.LATC1=1;
