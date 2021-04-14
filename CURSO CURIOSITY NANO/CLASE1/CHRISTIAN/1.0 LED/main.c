@@ -1,28 +1,14 @@
-/*
- * File:   main.c
- * Author: USUARIO1
- *
- * Created on 20 de febrero de 2021, 01:19 PM
- */
-
-
 #include <xc.h>
-/*Librerias e inclusiones*/
 #include "config.h"
-#define _XTAL_FREQ 8000000
-/*Variables globales*/
+#include "RELOJ.h"
 
-/*Declaracion de funciones*/
-int main(void) {
-    OSCCON = 0X72;
-    TRISD = 0;
+void main(void) {
     
-
-    while(1){
-        LATD = 1;
-	__delay_ms(200);
-	LATD = 0;
-	__delay_ms(200);
-    }
-    return 0;
+    TRISCbits.TRISC1=0;
+    
+    LATFCits.LATC1=1;
+    __delay_ms(1000);
+    LATCbits.LATC1=0;
+    __delay_ms(1000);
+    return;
 }
