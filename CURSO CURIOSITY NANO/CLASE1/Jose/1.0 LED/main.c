@@ -18,9 +18,9 @@ void main(void) {
     while(1){
         
         LED_SWITCH=1;       //ENCENDIDO DEL LED
-        __delay_ms(4000);
+        __delay_ms(2000);
         LED_SWITCH=0;       //APAGADO DEL LED
-        __delay_ms(4000);
+        __delay_ms(2000);
     }
     return;
 }
