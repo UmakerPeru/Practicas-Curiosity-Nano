@@ -12,7 +12,7 @@
 extern "C" {
 #endif
 
-#define _XTAL_FREQ 4000000
+#define _XTAL_FREQ 1000000
     
 // PIC18F57Q43 Configuration Bit Settings
 
