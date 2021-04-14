@@ -1,6 +1,5 @@
 #include <xc.h>
 #include "config.h"
-#include "reloj.h"
 
 void main(void) {
     PORTF=0;
