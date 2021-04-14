@@ -33,7 +33,7 @@ int main(int argc, char** argv)
             while (1)
             {
                 LATF = TMR0L;
-                __delay_ms(500);
+                __delay_ms(150);
                 if (TMR0L==15)
                 {
                     TMR0L=0;
